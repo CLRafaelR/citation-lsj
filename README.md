@@ -11,7 +11,7 @@ The CSL file should be useful particularly when you produce web pages and slides
 This CSL file is ***unofficial***.
 Moreover, it is still alpha version, and several notations do not strictly follow the style specified by the Journal of the Linguistic Society of Japan (e.g. `&` currently concatenates multiple author names, but `and` should be used; The type of a cited thesis written in English is not presented by using the current CSL).
 
-Please refer to [The Style Sheet for Gengo Kenkyu, Journal of the Linguistic Society of Japan](https://www.ls-japan.org/modules/documents/LSJpapers/e-gkstyle202207.pdf) or its Japanese version [『言語研究』執筆要項](https://www.ls-japan.org/modules/documents/LSJpapers/j-gkstyle202207.pdf).
+Please refer to [The Style Sheet for *Gengo Kenkyu*, Journal of the Linguistic Society of Japan](https://www.ls-japan.org/modules/documents/LSJpapers/e-gkstyle202207.pdf) or its Japanese version [『言語研究』執筆要項](https://www.ls-japan.org/modules/documents/LSJpapers/j-gkstyle202207.pdf).
 
 # Usage
 
