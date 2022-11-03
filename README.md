@@ -22,7 +22,7 @@ Please refer to [The Style Sheet for *Gengo Kenkyu*, Journal of the Linguistic S
 
 # Licence
 
-`lsj-gengo-kenkyu.csl` is a derivative of "Chinese American Psychological Association 6th edition" by Pudding Chen, used under Creative Commons Attribution-ShareAlike 3.0 License. `lsj-gengo-kenkyu.csl` is licensed under Creative Commons Attribution-ShareAlike 3.0 License by Masataka Ogawa.
+`lsj-gengo-kenkyu.csl` is a derivative of ["Chinese American Psychological Association 6th edition"](https://raw.githubusercontent.com/pulipulichen/blogger/master/project/zotero/apa_zh_pulipuli.csl) by Pudding Chen, used under Creative Commons Attribution-ShareAlike 3.0 License. `lsj-gengo-kenkyu.csl` is, therefore, licensed under Creative Commons Attribution-ShareAlike 3.0 License by Masataka Ogawa.
 
 `test-lsj.Rmd` and `test-lsj.html` are licensed under  Attribution-NonCommercial-ShareAlike 4.0 International.
 
