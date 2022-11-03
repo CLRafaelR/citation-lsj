@@ -1,0 +1,325 @@
+[
+  {
+    "editor": [
+      {
+        "family": "Bach",
+        "given": "Emmon W."
+      },
+      {
+        "family": "Harms",
+        "given": "Robert Thomas"
+      }
+    ],
+    "id": "Bach_Harms1968",
+    "issued": {
+      "date-parts": [
+        [
+          1968
+        ]
+      ]
+    },
+    "publisher": "Holt, Rinehart, and Winston",
+    "publisher-place": "New York",
+    "title": "Universals in Linguistic Theory",
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Bach",
+        "given": "Emmon W."
+      }
+    ],
+    "container-title": "Universals in Linguistic Theory",
+    "editor": [
+      {
+        "family": "Bach",
+        "given": "Emmon W."
+      },
+      {
+        "family": "Harms",
+        "given": "Robert Thomas"
+      }
+    ],
+    "id": "Bach1968",
+    "issued": {
+      "date-parts": [
+        [
+          1968
+        ]
+      ]
+    },
+    "page": "90-122",
+    "publisher": "Holt, Rinehart, and Winston",
+    "publisher-place": "New York",
+    "title": "Nouns and noun phrases",
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "family": "Bloomfield",
+        "given": "Leonard"
+      }
+    ],
+    "id": "Bloomfield1968",
+    "issued": {
+      "date-parts": [
+        [
+          1933
+        ]
+      ]
+    },
+    "publisher": "Holt",
+    "publisher-place": "New York",
+    "title": "Language",
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Haegeman",
+        "given": "Liliane"
+      }
+    ],
+    "edition": "Second",
+    "id": "Haegeman1994",
+    "issued": {
+      "date-parts": [
+        [
+          1994
+        ]
+      ]
+    },
+    "publisher": "Basil Blackwell",
+    "publisher-place": "Oxford",
+    "title": "Introduction to government and binding theory",
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Jakobson",
+        "given": "Roman"
+      },
+      {
+        "family": "Fant",
+        "given": "Gunnar"
+      },
+      {
+        "family": "Halle",
+        "given": "Morris"
+      }
+    ],
+    "id": "Jakobson_etal1963",
+    "issued": {
+      "date-parts": [
+        [
+          1963
+        ]
+      ]
+    },
+    "publisher": "MIT Press",
+    "publisher-place": "Cambridge, MA",
+    "title": "Preliminaries to speech analysis: The distinctive features and their correlates",
+    "title-short": "Preliminaries to speech analysis",
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Kiparsky",
+        "given": "Paul"
+      }
+    ],
+    "container-title": "Universals in Linguistic Theory",
+    "editor": [
+      {
+        "family": "Bach",
+        "given": "Emmon W."
+      },
+      {
+        "family": "Harms",
+        "given": "Robert Thomas"
+      }
+    ],
+    "id": "Kiparsky1968",
+    "issued": {
+      "date-parts": [
+        [
+          1968
+        ]
+      ]
+    },
+    "page": "171-202",
+    "publisher": "Holt, Rinehart, and Winston",
+    "publisher-place": "New York",
+    "title": "Linguistic universals and linguistic change",
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "family": "Lakoff",
+        "given": "George"
+      },
+      {
+        "family": "Johnson",
+        "given": "Mark"
+      }
+    ],
+    "id": "Lakoff_Johnson1980",
+    "issued": {
+      "date-parts": [
+        [
+          1980
+        ]
+      ]
+    },
+    "publisher": "University of Chicago Press",
+    "publisher-place": "Chicago",
+    "title": "Metaphors we live by",
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Langacker",
+        "given": "Ronald W"
+      }
+    ],
+    "container-title": "Language Sciences",
+    "id": "Langacker1993_grammatical_traces",
+    "issued": {
+      "date-parts": [
+        [
+          1993
+        ]
+      ]
+    },
+    "page": "323-355",
+    "title": "Grammatical traces of some “invisible” semantic constructs",
+    "type": "article-journal",
+    "volume": "15"
+  },
+  {
+    "author": [
+      {
+        "family": "Langacker",
+        "given": "Ronald W"
+      }
+    ],
+    "container-title": "Cognitive Linguistics",
+    "id": "Langacker1993_reference_point",
+    "issued": {
+      "date-parts": [
+        [
+          1993
+        ]
+      ]
+    },
+    "page": "1-38",
+    "title": "Reference-point constructions",
+    "type": "article-journal",
+    "volume": "4"
+  },
+  {
+    "author": [
+      {
+        "family": "Liberman",
+        "given": "Mark"
+      }
+    ],
+    "container-title": "Invited plenary address at the 81st Annual Meeting of the Linguistic Society of America",
+    "editor": [
+      {
+        "dropping-particle": "of",
+        "family": "America",
+        "given": "Linguistic Society"
+      }
+    ],
+    "id": "Liberman2007",
+    "issued": {
+      "date-parts": [
+        [
+          2007,
+          1,
+          6
+        ]
+      ]
+    },
+    "publisher-place": "Hilton Anaheim",
+    "title": "The future of linguistics",
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "family": "Postal",
+        "given": "Paul"
+      }
+    ],
+    "container-title": "Linguistic Inquiry",
+    "id": "Postal1970",
+    "issued": {
+      "date-parts": [
+        [
+          1970
+        ]
+      ]
+    },
+    "page": "37-120",
+    "title": "On the surface verb “remind”",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "author": [
+      {
+        "family": "Sag",
+        "given": "Ivan"
+      }
+    ],
+    "genre": "phdthesis",
+    "id": "Sag1976",
+    "issued": {
+      "date-parts": [
+        [
+          1976
+        ]
+      ]
+    },
+    "publisher": "MIT",
+    "title": "Deletion and logical form",
+    "type": "thesis"
+  },
+  {
+    "author": [
+      {
+        "family": "Scalise",
+        "given": "Sergio"
+      },
+      {
+        "family": "Fábregas",
+        "given": "Antonio"
+      },
+      {
+        "family": "Forza",
+        "given": "Francesca"
+      }
+    ],
+    "container-title": "Geongo Kenkyu",
+    "id": "Scalise_etal2009",
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "page": "49-84",
+    "title": "Exocentricity in compounding",
+    "type": "article-journal",
+    "volume": "135"
+  }
+]

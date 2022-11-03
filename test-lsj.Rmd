@@ -1,0 +1,118 @@
+---
+#output:
+#  revealjs::revealjs_presentation:
+#    base_format: "function(...) bookdown::html_document2(...)"
+#  #bookdown::html_document2:
+#  #  base_format: "function(...) revealjs::revealjs_presentation(...)"
+#    keep_md: true
+#    self_contained: false
+#    reveal_plugins: ["notes", "search"]
+#    transition: slide
+# bibliography: [tests.json]
+bibliography: [lsj-en.json, lsj-ja.json]
+csl: lsj-gengo-kenkyu.csl
+nocite: |
+  @*
+---
+
+<!--
+文中引用
+-->
+
+@服部1976
+
+@平山他1966
+
+@金田一1932
+
+@金田一1955
+
+@梶1992
+
+@佐久間1941
+
+@柴谷1978
+
+@上野1997
+
+@林_南1974
+
+@橋本1966
+
+@Bach_Harms1968
+
+@Bach1968
+
+@Bloomfield1968
+
+@Haegeman1994
+
+@Jakobson_etal1963
+
+@Kiparsky1968,
+
+@Lakoff_Johnson1980
+
+@Langacker1993_grammatical_traces
+
+@Langacker1993_reference_point
+
+@Liberman2007
+
+@Postal1970
+
+@Sag1976
+
+@Scalise_etal2009
+
+<!-- 
+括弧での引用
+-->
+
+[@服部1976]
+
+[@平山他1966]
+
+[@金田一1932]
+
+[@金田一1955]
+
+[@梶1992]
+
+[@佐久間1941]
+
+[@柴谷1978]
+
+[@上野1997]
+
+[@林_南1974]
+
+[@橋本1966]
+
+[@Bach_Harms1968]
+
+[@Bach1968]
+
+[@Bloomfield1968]
+
+[@Haegeman1994]
+
+[@Jakobson_etal1963]
+
+[@Kiparsky1968],
+
+[@Lakoff_Johnson1980]
+
+[@Langacker1993_grammatical_traces]
+
+[@Langacker1993_reference_point]
+
+[@Liberman2007]
+
+[@Postal1970]
+
+[@Sag1976]
+
+[@Scalise_etal2009]
+
+# 参考文献
