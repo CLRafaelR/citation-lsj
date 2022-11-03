@@ -3,6 +3,8 @@
 A Citation Style Language file for *Gengo Kenkyu*, Journal of the Linguistic Society of Japan, and its minimal working examples
 
 See how the citation style looks like from [here](https://htmlpreview.github.io/?https://github.com/CLRafaelR/citation-lsj/blob/master/test-lsj.html).
+You will notice that you can present Japanese and English references in their proper citation format simultaneously.
+The CSL file should be useful particularly when you produce web pages and slides in HTML.
 
 # Disclaimer
 
