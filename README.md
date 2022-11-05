@@ -20,11 +20,11 @@ to make the current implementation of the CSL work properly.
 
 ## `<if variable="language" match="any">...</if>` in the process of citation
 
-<https://github.com/CLRafaelR/citation-lsj/blob/master/lsj-gengo-kenkyu.csl#L1485-L1504>
+https://github.com/CLRafaelR/citation-lsj/blob/master/lsj-gengo-kenkyu.csl#L1485-L1504
 
 ## `<if variable="language" match="any">...</if>` in the process of bibliography
 
-<https://github.com/CLRafaelR/citation-lsj/blob/master/lsj-gengo-kenkyu.csl#L1524-L1564>
+https://github.com/CLRafaelR/citation-lsj/blob/master/lsj-gengo-kenkyu.csl#L1524-L1564
 
 # Usage
 
