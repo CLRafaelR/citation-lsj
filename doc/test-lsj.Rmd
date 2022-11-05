@@ -9,8 +9,8 @@
 #    reveal_plugins: ["notes", "search"]
 #    transition: slide
 # bibliography: [tests.json]
-bibliography: [lsj-en.json, lsj-ja.json]
-csl: lsj-gengo-kenkyu.csl
+bibliography: [../csljson/lsj-en.json, ../csljson/lsj-ja.json]
+csl: ../lsj-gengo-kenkyu.csl
 nocite: |
   @*
 ---
