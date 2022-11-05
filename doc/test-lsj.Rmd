@@ -1,18 +1,52 @@
 ---
-#output:
-#  revealjs::revealjs_presentation:
-#    base_format: "function(...) bookdown::html_document2(...)"
-#  #bookdown::html_document2:
-#  #  base_format: "function(...) revealjs::revealjs_presentation(...)"
-#    keep_md: true
-#    self_contained: false
-#    reveal_plugins: ["notes", "search"]
-#    transition: slide
-# bibliography: [tests.json]
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, encoding = encoding, output_format = "all") })
+
+output:
+  bookdown::html_document2:
+    md_extensions: +east_asian_line_breaks
+  bookdown::word_document2:
+    md_extensions: +east_asian_line_breaks
+  bookdown::pdf_document2:
+    toc: false
+    latex_engine: xelatex
+    md_extensions: +east_asian_line_breaks
 bibliography: [../csljson/lsj-en.json, ../csljson/lsj-ja.json]
 csl: ../lsj-gengo-kenkyu.csl
 nocite: |
   @*
+
+####################################
+## PDF specific configurations
+## to generate a PDF according to 
+## Japanese type setting convention
+####################################
+documentclass: bxjsarticle
+classoption: 
+  ##--------------------
+  ## Mandatory setting
+  ##--------------------
+
+  - pandoc 
+
+  ##--------------------
+  ## Optional settings
+  ##--------------------
+
+  # Fonts for Japanese texts
+  # See the documentation of `zxjafont` package for further details
+  # http://mirrors.ctan.org/language/japanese/zxjafont/zxjafont.pdf#page=2
+  - jafont = haranoaji       # Default fonts for `bxjsarticle` class
+  #- jafont = yu-win10      # For Windows users
+  #- jafont = hiragino-pron # For Mac users
+
+  # Paper size 
+  # See the documentation of `zxjafont` package for further details
+  # http://mirrors.ctan.org/language/japanese/BX/bxjscls/bxjscls.pdf#page=11
+  - a4paper
+
+  # Configuration for paragraph hooks
+  - everyparhook = compat
 ---
 
 <!--
