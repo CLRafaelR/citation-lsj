@@ -387,7 +387,6 @@
     </terms>
   </locale>
 
-  <!---->
 
   <macro name="container-contributors">
     <choose>
@@ -411,7 +410,6 @@
     </choose>
   </macro>
 
-  <!---->
   <macro name="secondary-contributors">
     <choose>
       <if type="article-journal chapter paper-conference" match="none">
@@ -434,14 +432,13 @@
           </names>
         </if>
       </choose>
-       -->
+      -->
       <names variable="translator" suffix="訳">
         <name delimiter="・" />
       </names>
     </group>
   </macro>
 
-  <!---->
 
   <macro name="author">
     <names variable="author">
@@ -496,7 +493,6 @@
     </names>
   </macro>
 
-  <!---->
 
   <macro name="author-short">
     <names variable="author">
@@ -545,7 +541,6 @@
     </names>
   </macro>
 
-  <!---->
 
   <macro name="access">
     <choose>
@@ -598,14 +593,6 @@
       </else>
     </choose>
 
-    <!-- 20181207 不使用(SSCI) -->
-    <!--
-    <choose>
-      <if type="book chapter" match="none">
-        <text variable="note" prefix=" (" suffix=")"/>
-      </if>
-    </choose>
-  -->
   </macro>
 
   <macro name="access-ja">
@@ -641,12 +628,10 @@
         <text variable="note" prefix="（" suffix="）"/>
       </if>
     </choose>
-     -->
+    -->
 
   </macro>
 
-
-  <!---->
 
   <macro name="title">
     <choose>
@@ -659,7 +644,7 @@
           <text variable="genre" />
           <text variable="number" prefix="No. " />
         </group>
-         -->
+        -->
       </if>
       <else-if type="book graphic  motion_picture report song manuscript speech" match="any">
         <!---This is a hack until we have a computer program type -->
@@ -743,9 +728,6 @@
 
   </macro>
 
-  <!---->
-
-  <!---->
 
   <macro name="publisher">
     <choose>
@@ -819,7 +801,6 @@
     </choose>
   </macro>
 
-  <!---->
 
   <macro name="event">
     <choose>
@@ -869,7 +850,6 @@
     </choose>
   </macro>
 
-  <!---->
 
   <macro name="issued">
     <choose>
@@ -936,7 +916,6 @@
     </choose>
   </macro>
 
-  <!---->
 
   <macro name="issued-sort">
     <choose>
@@ -972,7 +951,6 @@
     </choose>
   </macro>
 
-  <!---->
 
   <macro name="issued-year">
     <!--
@@ -1108,7 +1086,6 @@
     </choose>
   </macro>
 
-  <!---->
 
   <macro name="edition">
     <choose>
@@ -1146,7 +1123,6 @@
     </choose>
   </macro>
 
-  <!---->
 
   <macro name="locators">
     <choose>
@@ -1248,7 +1224,6 @@
 
   </macro>
 
-  <!---->
 
   <macro name="citation-locator">
     <group>
@@ -1271,8 +1246,6 @@
   </macro>
 
 
-  <!---->
-
   <macro name="container">
     <group delimiter=" ">
       <choose>
@@ -1286,7 +1259,6 @@
     </group>
   </macro>
 
-  <!---->
 
   <macro name="container-title">
     <choose>
@@ -1336,7 +1308,6 @@
     </choose>
   </macro>
 
-  <!---->
 
   <macro name="japanese-bibliography">
 
@@ -1427,7 +1398,6 @@
 
   </macro>
 
-  <!---->
 
   <macro name="japanese-sort">
     <choose>
@@ -1467,7 +1437,6 @@
     <!-- <text value=" | "/> -->
   </macro>
 
-  <!---->
   <citation et-al-min="6"
     et-al-use-first="1"
     et-al-subsequent-min="3"
