@@ -133,7 +133,7 @@ classoption:
 
 [@Jakobson_etal1963]
 
-[@Kiparsky1968],
+[@Kiparsky1968]
 
 [@Lakoff_Johnson1980]
 

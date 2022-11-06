@@ -1472,14 +1472,14 @@
     <layout delimiter="，" prefix="（" suffix="）">
       <choose>
         <if variable="language">
-          <group>
+          <group delimiter=" ">
             <text macro="author-short-ja" />
             <text macro="issued-year-ja" />
             <text macro="citation-locator-ja" />
           </group>
         </if>
         <else>
-          <group>
+          <group delimiter=" ">
             <text macro="author-short" />
             <text macro="issued-year" />
             <text macro="citation-locator" />
