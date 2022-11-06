@@ -1469,19 +1469,17 @@
       <key macro="issued-sort" />
     </sort>
 
-    <layout>
+    <layout delimiter="，" prefix="（" suffix="）">
       <choose>
         <if variable="language">
-          <!-- <layout locale="Japanese" prefix="（" suffix="）" delimiter="；"> -->
-          <group delimiter="，" prefix="（" suffix="）">
+          <group>
             <text macro="author-short-ja" />
             <text macro="issued-year-ja" />
             <text macro="citation-locator-ja" />
           </group>
         </if>
         <else>
-          <!-- <layout prefix="(" suffix=")" delimiter="; "> -->
-          <group delimiter=", " prefix=" (" suffix=") ">
+          <group>
             <text macro="author-short" />
             <text macro="issued-year" />
             <text macro="citation-locator" />
