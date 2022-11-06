@@ -37,11 +37,16 @@ https://github.com/CLRafaelR/citation-lsj/blob/master/lsj-gengo-kenkyu.csl#L1524
     - See [`lsj-ja.bib` in this repository](https://github.com/CLRafaelR/citation-lsj/blob/master/bib/lsj-ja.bib) for the details
 4. Convert `.bib`s to CSL JSON files (`.json`) by using Pandoc by typing `Pandoc bib-file-name.bib -t csljson -o json-file-name.json` in the command line (e.g. Windows [PowerShell](https://learn.microsoft.com/ja-jp/powershell/scripting/discover-powershell) or Mac [Terminal](https://support.apple.com/ja-jp/guide/terminal/welcome/mac))
 5. Write manuscripts in `.md` (or `.Rmd`) files
-    - See [here](https://pandoc.org/MANUAL.html#pandocs-markdown) to familiarise yourself with Pandoc's markdown notation (e.g. how to mark section headers, how to italicise and/or boldface texts, how to comment out a part of texts). Markdown is much easier to understand than any other mark-up languages such as HTML and LaTeX.
-6. Add `bibliography` field in the YAML of `.md` file (i.e. the area surrounded by `---`; see [here](https://github.com/CLRafaelR/citation-lsj/blob/e1b95ab32f0870de32b9f8db96bfc73c2358d623/doc/test-lsj.Rmd#L14)) so that Pandoc can refer to the .json file when Pandoc generates outputs from that `.md` file
+    - See [here](https://pandoc.org/MANUAL.html#pandocs-markdown) to familiarise yourself with Pandoc's markdown notation
+      - [how to cite references](https://pandoc.org/MANUAL.html#citation-syntax); just like `@mention`!
+      - e.g. [how to mark section headers](https://pandoc.org/MANUAL.html#atx-style-headings)
+      - [how to *italicise/emphasise* and/or **boldface** texts](https://pandoc.org/MANUAL.html#emphasis)
+      - how to comment out a part of texts using an HTML comment (`<!-- -->`)
+    - **Markdown is much easier to understand than any other mark-up languages such as HTML and LaTeX**.
+6. Add `bibliography` field in the YAML of `.md` file (i.e. the area surrounded by `---`; see [this line of `test-lsj.Rmd`](https://github.com/CLRafaelR/citation-lsj/blob/e1b95ab32f0870de32b9f8db96bfc73c2358d623/doc/test-lsj.Rmd#L14) for instance) so that Pandoc can refer to .json files when Pandoc generates outputs from that `.md` file
 7. Generate the output from your manuscripts using Pandoc
     - e.g. if you write `.md` files to render them into a Word file (`.docx`), type `pandoc manuscript.md -t docx -o output.docx` in the command line
-    - e.g. if you write `.Rmd` files, just *knit* your `.Rmd` files to render them into what you want to get! (See [here](https://rmarkdown.rstudio.com/docs/))
+    - e.g. if you write `.Rmd` files, just *knit* your `.Rmd` files to render them into what you want to get! (See [`docs` folder in this repository](https://rmarkdown.rstudio.com/docs/))
 
 You can also test how the CSL works by *knitting* [`test-lsj.Rmd` in this repository](https://github.com/CLRafaelR/citation-lsj/blob/master/doc/test-lsj.Rmd).
 
@@ -59,7 +64,7 @@ Please refer to [The Style Sheet for *Gengo Kenkyu*, Journal of the Linguistic S
 
 Any bib entry that has `language` field is processed as Japanese reference as described in the previous section,
 and the current CSL ignores the value of `language` filed (e.g. "ja-JP" and "en-GB").
-This means that even a bib entry for British English reference that contains `"language": "en-GB"` is displayed as a Japanese reference.
+This means that even a bib entry for British English reference that contains `"language": "en-GB"` is displayed in the format for Japanese references.
 
 # Licence
 
