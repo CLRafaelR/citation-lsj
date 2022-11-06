@@ -9,7 +9,7 @@ You will notice that you can simultaneously present Japanese and English referen
 For instance, the names of multiple authors of a Japanese reference are delimited by `・` and those for an English reference are dilimited by `, ` in a same document that you produce using this CSL.
 The CSL file is useful when you produce Microsoft Word documents (`.docx`), HTML web pages and slides, and even PDF documents using LaTeX (including `beamer` slides).
 You may write your manuscripts in [markdown](https://pandoc.org/MANUAL.html#pandocs-markdown) files (`.md`) or [R Markdown](https://rmarkdown.rstudio.com/) files (`.Rmd`)
-and process them using [Pandoc](https://pandoc.org/index.html) to use this CSL.
+and process them using [Pandoc](https://pandoc.org/index.html) to enjoy the beautiful bibliographic typesetting that the CSL offers.
 
 # How does the CSL distinguish Japanese and English references?
 
