@@ -1,4 +1,4 @@
-# The Citation Style Sheet for *Gengo Kenkyu*, Journal of the Linguistic Society of Japan (March 2022)
+# The Citation Style Language (CSL) for *Gengo Kenkyu*, Journal of the Linguistic Society of Japan (March 2022)
 
 An unofficial Citation Style Language file for *Gengo Kenkyu*, Journal of the Linguistic Society of Japan, and its minimal working examples
 
