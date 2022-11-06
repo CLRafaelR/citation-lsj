@@ -72,6 +72,6 @@ This means that even a bib entry for British English reference that contains `"l
 
 `lsj-gengo-kenkyu.csl` is a derivative of ["Chinese American Psychological Association 6th edition"](https://raw.githubusercontent.com/pulipulichen/blogger/master/project/zotero/apa_zh_pulipuli.csl) by Pudding Chen, used under Creative Commons Attribution-ShareAlike 3.0 License. `lsj-gengo-kenkyu.csl` is, therefore, licensed under Creative Commons Attribution-ShareAlike 3.0 License by Masataka Ogawa.
 
-`test-lsj.Rmd` and `test-lsj.html` are licensed under  Attribution-NonCommercial-ShareAlike 4.0 International.
+`test-lsj.Rmd`, `test-lsj.docx`, `test-lsj.html`, and `test-lsj.pdf` are licensed under  Attribution-NonCommercial-ShareAlike 4.0 International.
 
 The other files are licensed under CC0 1.0 Universal.
